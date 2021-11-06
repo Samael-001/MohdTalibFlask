@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">oh-my-zsh</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>samael</span><span class="at">@</span><span
+                                class="path">/home/talib/</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"/></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Mohd</p>
+            <p class="text-title desktop-view">Talib</p>
+            <p class="text-title mobile-view">Mohd Talib</p>
+            <div class="social-icons">
+                <a target="_blank" href="https://github.com/lunatic-samael">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+                <a target="_blank" href="https://in.linkedin.com/in/cli-nerds-620064214/">
+                    <img class="title-logo" src="static/images/linkedin-logo.svg">
+                </a>
+                <!-- <a target="_blank" href="https://twitter.com/bhardwaj_rish">
+                    <img class="title-logo" src="static/images/twitter.svg">
+                </a> -->
+                <a target="_blank" href="https://www.instagram.com/lunatic_samael/">
+                    <img class="title-logo" src="static/images/insta.svg">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">I am a nerd; since my childhood I have a lot of intrest in computer but our financial condition was not that right so my father can't afford me a computer. I learned Linux and Python at my Android Phone. I completed Python Programming at the age of 14 but still I am learning and trying to enhance my skill in Python and Linux, also I love play CTFs (Capture The Flag) and I have a good knowledge about Penetration Testing/Ethical Hacking </p>
+            <p class="text-content">
+                I work as a Intern at  <a href="https://www.tattvafoundation.org/">Tattva Foundation</a>. I have advance knowledge of
+                Linux. I have worked on hard problems such as installing an unstable version of a Open-Source Program, and have created a <a href="https://github.com/Lunatic-Samael/Twitter-Scrapper">Twitter Scrapping Tool</a>. that can scrap anyones tweets without the twitter API.</p>
+
+            <p class="text-content">I graduated with PCM in 10th from Mumtaz Eduactional Academy (Rudauli,Ayodhya). Currently studying in 12th with PCM, Exam will be conducted in March 2022 
+            </p>
+
+            <!-- <p class="text-content">One of my favourite side-projects is <a
+                    href="https://play.google.com/store/apps/details?id=rish.crearo.lifehacks&hl=en_IN">Lifehacks</a>,
+                an Android application I developed from scratch which now has over 750K installs. I designed the logo,
+                collated the content, structured the database and designed the REST API. I contribute to open source
+                occasionally - I've contributed heavily to
+                <a href="https://play.google.com/store/apps/details?id=nickrout.lenslauncher&hl=en_IN">Lens Launcher</a>,
+                an Android launcher with over 1 million installs, and have also open sourced a
+                personal project I developed during my university days for viewing
+                <a href="http://github.com/crearo/webmail">Zimbra Webmails on Android</a>.</p>
+
+            <p class="text-content">I have also co-authored a paper in the Conference of Data Sciences (CODS '17)
+                studying the role of temporal diversity in inferring social ties based on spatio-temporal data. (<a
+                        href="https://arxiv.org/abs/1611.03298">view paper here</a>).</p> -->
+
+            <p class="text-content">I'm a Guitar student, and
+                <a href="https://clinerds.coms">am an active blogger</a>, where I write about Tech, How-to-tech tutorials, and also I provided there some Free Courses. I'm extremely enthusiastic about life, believe that life is too short to work on
+                things that don't interest you, and I'm always on the hunt for learning something new.</p>
+
+            <p class="text-content">You can find me on <a href="https://in.linkedin.com/in/cli-nerds-620064214">LinkedIn</a>,
+                or email me <a href="mailto:mohdtalibishere2402@gmail.com?Subject=Hello%20Talib%20from-website" target="_top">here</a>.
+            </p>
+
+            <p class="text-content">Let's get in touch!</p>
+
+            <p class="text-content">Mohd Talib</p>
+
+            <!-- <p class="text-content"><a href="timeline">For more about me, my timeline, read on here.</a></p> -->
+
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

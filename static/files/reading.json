@@ -1,0 +1,70 @@
+[
+  {
+    "year": "Books I Finished",
+    "books": [
+      {
+        "name": "The Power Of Your Subconscious Mind"
+      },
+      {
+        "name": "Paranormal Experiences"
+      },
+      {
+        "name": "Lucid Dreaming And The Astral Projection (OBE)"
+      },
+      {
+        "name": "Haunted: Terrifying Real-life"
+      }
+      
+    ]
+  },
+  {
+    "year": "Reading / Unfinished",
+    "books": [
+      {
+        "name": "To Kill a Mockingbird, Novel by Harper Lee (2021)",
+        "review": "Suggested by my brother. I am currently reading it and enjoying it. Love the way how author's describes the charecters.",
+        "star": true
+      }
+      
+    ]
+  },
+  
+  {
+    "year": "Favourite Authors",
+    "books": [
+      {
+        "name": "Joseph Murphy",
+        "review": "",
+        "star": true
+      },
+      {
+        "name": "Himani Vashishta",
+        "review": "",
+        "star": true
+      },
+      {
+        "name": "Jay Alani",
+        "review": "",
+        "star": true
+      },
+      {
+        "name": "Dr. Mehra Shrikhande",
+        "review": "",
+        "star": true
+      }
+    ]
+  },
+  {
+    "year": "Books I Love The Most",
+    "books": [
+      {
+        "name": "The Power Of Your Subconscious Mind",
+        "review": ""
+      },
+      {
+        "name": "Lucid Dreaming And The Astral Projection (OBE)",
+        "review": ""
+      }
+    ]
+  }
+]

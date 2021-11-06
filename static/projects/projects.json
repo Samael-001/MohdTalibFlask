@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio",
+      "link": "portfolio",
+      "github": "https://github.com/crearo/portfolio",
+      "date": "Nov '4 - Forever",
+      "weight": 5,
+      "short": "I Joined the community of web revolution by creating my own Portfolio on the Internet.",
+      "status": "ongoing",
+      "tags": [
+        "Python",
+        "Web",
+        "Flask"
+      ],
+      "photos": [
+        "/static/projects/portfolio/portfolio.png"
+      ]
+    }
+      ]
+    }
