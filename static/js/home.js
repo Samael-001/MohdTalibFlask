@@ -3,7 +3,7 @@ $(function() {
   $(".typed").typed({
     strings: [
       "./talib.human<br/>" + 
-      "><span class='caret'>$</span> skills: python, core-linux, flask, penetesting<br/> ^100" +
+      "><span class='caret'>$</span> skills: python, rhel, unix/linux, system-pentesting, html, bootstrap, python-flask<br/> ^100" +
       "><span class='caret'>$</span> job: intern at  <a href='https://www.tattvafoundation.org/'>Tattva Foundation</a><br/> ^100" +
       "><span class='caret'>$</span> hobbies: <a href='https://open.spotify.com/artist/1oyUjl52ohRrCv3EL1UdpM'>music,</a> ctf, <a href='https://clinerds.com'>writing</a><br/> ^300" +
       "><span class='caret'>$</span> alias: lunatic_samael <br/>" +
